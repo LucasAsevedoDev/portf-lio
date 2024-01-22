@@ -1,0 +1,68 @@
+/*Cabeçalho*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000069;
+}
+
+.info {
+    border-bottom: 0.1em solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1.7em;
+}
+
+.navButtons, a {
+    margin: 1em;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: #990707;
+    transition: 0.7s;
+}
+
+#theme {
+    padding: 0.7em 2em;
+    border-radius: 1em;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #000000;
+}
+
+#theme:hover {
+    background-color: whitesmoke;
+    color: #00000091;
+    transition: 0.5s;
+}
+/*Cabeçalho*/
+
+/*Content*/
+.content {
+    background-image:url(https://www.publicdomainpictures.net/pictures/30000/nahled/plain-white-background.jpg);
+    background-repeat: repeat;
+    margin: 3em 15em 0 15em;
+    display: flex;
+    flex-direction: column;
+    padding: 7em;
+    color: white;
+}
+
+#title {
+    color: aliceblue;
+}
+
+#subTitle {
+    color: #990707;
+}
+
+.cover {
+    padding: 7em;
+    background-color: #000000;
+}
+/*Content*/
