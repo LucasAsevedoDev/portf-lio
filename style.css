@@ -5,11 +5,11 @@
 }
 
 body{
-    background-color:  	Black;
+    background-color:  #4c012b;
 }
 
 .info {
-    border-bottom: 0.1em solid #ffffff;
+    border-bottom: 0.2em solid #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -65,25 +65,82 @@ a:hover {
 }
 /*Content*/
 
+/*Tech*/
+.content1 {
+    background-image: url(https://img.freepik.com/fotos-gratis/closeup-da-tela-do-computador-do-desenvolvedor-de-software-digitando-a-linguagem-de-programacao-na-agencia-de-inicializacao-exibir-conceito-de-engenheiro-de-sistema-escrevendo-codigo-fonte-rolagem-de-texto-do-script-de-funcoes-do-banco-de-dados_482257-33355.jpg?w=1380&t=st=1706142784~exp=1706143384~hmac=22daef3d9dce9730aa7789222402d68ec1bc54400c95054f6c085a364dffcae1);
+    background-repeat:repeat;
+    margin: 3em 10em 0 10em;
+    display: flex;
+    padding: 3em;
+    color: white;
+}
+
+.cover {
+    margin: auto;
+    padding: 6em;
+    background-color: #4c012b;
+}
+
+.title {
+    color: aliceblue;
+}
+
+h3 {
+    margin-bottom: 0.6em;
+    color: #990707;
+}
+
+ul {
+    margin-top: 2em;
+}
+/*Tech*/
+
+/*Contacts*/
+#ul-contacts, li {
+    padding: 0.7em;
+}
+
+.content2 {
+    background-image: url(https://img.freepik.com/fotos-gratis/closeup-da-tela-do-computador-do-desenvolvedor-de-software-digitando-a-linguagem-de-programacao-na-agencia-de-inicializacao-exibir-conceito-de-engenheiro-de-sistema-escrevendo-codigo-fonte-rolagem-de-texto-do-script-de-funcoes-do-banco-de-dados_482257-33355.jpg?w=1380&t=st=1706142784~exp=1706143384~hmac=22daef3d9dce9730aa7789222402d68ec1bc54400c95054f6c085a364dffcae1);
+    background-repeat:repeat;
+    margin: 3em 10em 0 10em;
+    display: flex;
+    padding: 3em;
+    color: white;
+}
+/*Contacts*/
+
+/*medias*/
+@media only screen and (max-device-width: 2560px) {
+    .container { width:100%; } 
+    .cover {font-size: 25px;}
+    .content{margin-top: 14em;}
+    .content1{margin-top: 14em;}
+    .content2{margin-top: 14em;}
+}
+
 
 @media only screen and (max-device-width: 1440px) {
     .container { width:100%; } 
     .cover {font-size: 13px;}
     .content{margin-top: 10em;}
+    .content1{margin-top: 10em;}
 }
 
 @media only screen and (max-device-width: 1024px) {
     .container { width:100%; } 
     .cover {font-size: 11px;}
-    .content{
-        margin: 5em 5em;
-    }
+    .content{margin: 5em 5em;}
+    .content1{margin: 5em 5em;}
 }
 
-/*Arrumar essa parte!!!!*/
 @media only screen and (max-device-width: 768px) {
     .container { width:100%; } 
     .content {
+        margin: 5em 3em 5em 3em;
+        font-size: 1.2em;
+    }
+    .content1 {
         margin: 5em 3em 5em 3em;
         font-size: 1.2em;
     }
@@ -99,6 +156,18 @@ a:hover {
         display: flex;
         justify-content: center;
     }
+    .content1 {
+        margin: 4em 1em;
+        font-size: 0.6em;
+        display: flex;
+        justify-content: center;
+    }
+    .content2 {
+        margin: 4em 1em;
+        font-size: 0.6em;
+        display: flex;
+        justify-content: center;
+    }
     .info {font-size: 0.6em;}
     #theme {font-size: 0.8em;}
 }
@@ -106,9 +175,25 @@ a:hover {
 @media only screen and (max-device-width: 375px) {
     .container { width:100%; }
     .info {
-        font-size: 0.4em;
+        font-size: 0.3em;
+        display: flex;
+        justify-content: center;
+    }
+    .content2 {
+        margin-top: 13em;
+        font-size: 0.6em;
         display: flex;
         justify-content: center;
     }
     #theme {font-size: 0.8em;}
 }
+
+@media only screen and (max-device-width: 320px) {
+    .content2 {
+        margin-top: 15em;
+    }
+    .cover {
+        padding: 3em;
+    }
+}
+/*medias*/
